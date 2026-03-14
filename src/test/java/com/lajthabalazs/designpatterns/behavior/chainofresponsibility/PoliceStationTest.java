@@ -1,9 +1,5 @@
-package com.lajthabalazs.designpatterns.behavior;
+package com.lajthabalazs.designpatterns.behavior.chainofresponsibility;
 
-import com.lajthabalazs.designpatterns.behavior.chainofresponsibility.Incident;
-import com.lajthabalazs.designpatterns.behavior.chainofresponsibility.IncidentSeverity;
-import com.lajthabalazs.designpatterns.behavior.chainofresponsibility.IncidentType;
-import com.lajthabalazs.designpatterns.behavior.chainofresponsibility.PoliceStation;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

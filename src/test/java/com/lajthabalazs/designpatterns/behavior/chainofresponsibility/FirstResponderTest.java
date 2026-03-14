@@ -1,6 +1,5 @@
-package com.lajthabalazs.designpatterns.behavior;
+package com.lajthabalazs.designpatterns.behavior.chainofresponsibility;
 
-import com.lajthabalazs.designpatterns.behavior.chainofresponsibility.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

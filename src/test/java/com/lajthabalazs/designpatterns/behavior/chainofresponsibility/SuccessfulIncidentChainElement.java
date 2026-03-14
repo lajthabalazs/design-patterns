@@ -1,7 +1,4 @@
-package com.lajthabalazs.designpatterns.behavior;
-
-import com.lajthabalazs.designpatterns.behavior.chainofresponsibility.Incident;
-import com.lajthabalazs.designpatterns.behavior.chainofresponsibility.IncidentChainElement;
+package com.lajthabalazs.designpatterns.behavior.chainofresponsibility;
 
 import java.util.Optional;
 

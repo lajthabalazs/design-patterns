@@ -2,6 +2,9 @@ package com.lajthabalazs.designpatterns.behavior.chainofresponsibility;
 
 import java.util.Optional;
 
+/**
+ * The chain of responsibility design pattern allows the
+ */
 public class IncidentChainElement implements IncidentHandler {
     private IncidentHandler next;
 
