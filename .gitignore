@@ -1,0 +1,9 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Gradle build outputs
+build/
+
+# Gradle local caches (NOT the wrapper — wrapper must be committed)
+.gradle/
