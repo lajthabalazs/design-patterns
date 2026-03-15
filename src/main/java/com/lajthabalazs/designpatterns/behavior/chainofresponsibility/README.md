@@ -38,19 +38,11 @@ classDiagram
         +handle(Request request) Optional~Response~
     }
 
-    class Request {
-        +type
-        +severity
-    }
-
     Handler <|.. BaseHandler : implements
     BaseHandler <|-- ConcreteHandler1 : extends
     BaseHandler <|-- ConcreteHandler2 : extends
     BaseHandler <|-- ConcreteHandlerN : extends
     BaseHandler o-- Handler : next
-    ConcreteHandler1 ..> Request : uses
-    ConcreteHandler2 ..> Request : uses
-    ConcreteHandlerN ..> Request : uses
 ```
 
 ## This Implementation
@@ -87,19 +79,9 @@ classDiagram
         +handleIncident(Incident incident) Optional~String~
     }
 
-    class Incident {
-        <<record>>
-        +String id
-        +IncidentType type
-        +IncidentSeverity severity
-    }
-
     IncidentHandler <|.. IncidentChainElement : implements
     IncidentChainElement <|-- Hospital : extends
     IncidentChainElement <|-- FireStation : extends
     IncidentChainElement <|-- PoliceStation : extends
     IncidentChainElement o-- IncidentHandler : next
-    Hospital ..> Incident : handles
-    FireStation ..> Incident : handles
-    PoliceStation ..> Incident : handles
 ```
