@@ -28,5 +28,6 @@ Behavioral patterns manage communication and responsibility between objects.
 | Pattern | Description |
 |---------|-------------|
 | [Chain of Responsibility](src/main/java/com/lajthabalazs/designpatterns/behavior/chainofresponsibility/README.md) | Pass requests along a chain of handlers, each deciding to handle or forward |
+| [Memento](src/main/java/com/lajthabalazs/designpatterns/behavior/memento/README.md) | Capture and restore an object's internal state without violating encapsulation |
 | [Strategy](src/main/java/com/lajthabalazs/designpatterns/behavior/strategy/README.md) | Define a family of interchangeable algorithms behind a common interface |
 | [Visitor](src/main/java/com/lajthabalazs/designpatterns/behavior/visitor/README.md) | Execute operations on every element of a data structure without modifying the elements |
